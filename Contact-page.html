@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>Please fill out the form below to confirm your purchase</h1>
+    <form action="server.php">
+        <fieldset>
+            <legend>Contact Information</legend>
+            First Name: <br>
+            <input type="text" value="" required placeholder="First Name"> <br>
+            Last Name: <br>
+            <input type="text" value="" required placeholder="Last Name"> <br>
+            Phone Number: <br>
+            <input type="number" value="" required placeholder="123-456-7890"> <br>
+            Email: <br>
+            <input type="email" value="" required placeholder="johndoe@icloud.com"> <br>
+            <label for="Priority">Priority Contact:</label>
+            <select id="priority" value="priority">
+                <option value="message">Text Message</option>
+                <option value="call">Phone Call</option>
+                <option value="email">Email</option>
+            </select>
+        </fieldset>
+    </form>
+    <fieldset>
+        <legend>Shipping Information</legend>
+        Home Address: <br>
+        <input type="address" value="" required placeholder="Address"> <br>
+        State: <br>
+        <input type="text" value="" required placeholder="State"> <br>
+        City: <br>
+        <input type="text" value="" required placeholder="City"> <br>
+        ZIP Code: <br>
+        <input type="number" value="" required placeholder="ZIP"> <br>
+    </fieldset>
+    <fieldset>
+        <legend>Billing Information</legend>
+        Card Number: <br>
+        <input type="number" value="" required placeholder="Card Number"> <br>
+        Name as on card: <br>
+        <input type="text" value="" required placeholder="John H. Doe"> <br>
+        Security Code: <br>
+        <input type="number" max="3" required placeholder="***"> <br> <br>
+        <input type="Submit" value="Submit">
+    </fieldset>
+    <a href="./Products-page.html"><p>Click here </a> if you need to go back to the first page of products.</p>
+</body>
+</html>

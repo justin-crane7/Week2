@@ -1,0 +1,43 @@
+#j-logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.header {
+    margin: auto;
+    padding: 0%;
+    background: rgba(6, 99, 122, 0.226)
+}
+
+.navigation, #nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0%;
+    cursor: pointer;
+
+}
+
+.vinyl {
+    margin: 25px;
+    border: solid black;
+    max-width: 15rem;
+    max-height: fit-content;
+    text-align: center;
+    word-wrap: normal;
+}
+
+#vinyls {
+    max-width: 100%;
+    max-height: 100%;
+}
+.main {
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: auto;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(8, 70, 121), rgb(90, 75, 6))
+}
+
